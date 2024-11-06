@@ -1,0 +1,6 @@
+
+#chat_records_bg {
+    background-color: #0f0;
+    /*background-image: url(:/img/Capture001.png);*/
+}
+

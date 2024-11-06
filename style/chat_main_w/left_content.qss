@@ -1,0 +1,103 @@
+#side_bar {
+    max-width: 70px;
+    color: white;
+    background-color: #FFFFFF; /* 鼠标悬停时的背景颜色 */
+    border: none; 
+    border-right: 2px solid #E5E5E5; 
+    border-color: #E5E5E5;
+    
+}
+#side_contact_lb[state="normal"] {
+    border-radius: 10px;
+    background-image: url(":/img/contacts_normal.png");
+    background-repeat: no-repeat;
+}
+#side_contact_lb[state="active"] {
+    background-image: url(":/img/contacts_active.png");
+    background-repeat: no-repeat;
+}
+#side_chat_lb[state="normal"] {
+    background-image: url(":/img/chat_msg_normal.png");
+    background-repeat: no-repeat;
+}
+#side_chat_lb[state="active"] {
+    background-image: url(":/img/chat_msg_active.png");
+    background-repeat: no-repeat;
+}
+
+#left_content_w {
+
+    background-color: #FFFFFF; /* 鼠标悬停时的背景颜色 */
+    border: none; 
+    border-right: 2px solid #EAEAEA; 
+    border-color: #E5E5E5;
+}
+
+#left_content_vlayout {
+    border: none; 
+}
+
+#contact_list {
+    border: none; 
+    border-right: 2px solid #EAEAEA; 
+    background-color: rgba(255, 255, 255, 0);
+}
+#contact_list::item {
+    background-color: rgba(255, 255, 255, 0);
+    border: none; 
+}
+
+#contact_list:focus {
+    outline: 0px; /* 去掉选中委托项的虚线框*/
+}
+#contact_list::item:hover {
+    background-color: #7fE5E5E5;
+    border: none; 
+}
+#contact_list::item:selected {
+    background-color: #AfE5E5E5;
+    border: none; 
+}
+#contact_list QScrollBar:vertical { 
+    background: transparent;
+    width: 10px; 
+    margin: 0px; 
+}
+#contact_list QScrollBar::handle:vertical { 
+    background: lightgray; 
+    min-height: 20px; 
+    border-radius: 5px;
+}
+#contact_list QScrollBar::add-line:vertical { 
+    height: 0px; 
+}
+#contact_list QScrollBar::sub-line:vertical { 
+    height: 0px; 
+}
+
+#search_w {
+    border: 2px solid #E5E5E5; 
+}
+#search_input {
+    border: none; 
+}
+
+#friend_list {
+    border: none;
+    background-color: #00E5E5E5;
+}
+#friend_list::item {
+    background-color: rgba(255, 255, 255, 0);
+    border: none; 
+}
+#friend_list:focus {
+    outline: 0px; /* 去掉选中委托项的虚线框*/
+}
+#friend_list::item:hover {
+    background-color: #7fE5E5E5;
+    border: none; 
+}
+#friend_list::item:selected {
+    background-color: #AfE5E5E5;
+    border: none; 
+}

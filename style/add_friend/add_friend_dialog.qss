@@ -1,0 +1,36 @@
+
+#AddFriendDialog {
+    background-color: #FFFFFF;
+}
+
+QLabel {
+
+    color: #AAAAAA;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#AddFriendDialog QLineEdit {
+
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+}
+
+#title_lb {
+    font-size: 30px;
+    border-bottom:2px solid #AAAAAA;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#confirm_lb {
+    color: aqua;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+#cancel_lb {
+    color: black;
+    border-radius: 5px;
+    background-color: #ffffff;
+}

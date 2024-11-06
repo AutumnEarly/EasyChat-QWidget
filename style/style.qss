@@ -1,0 +1,38 @@
+MainWindow {
+    background-color: #ffffff;
+}
+
+#background {
+    background-color: #ffffff;
+}
+
+#reg_btn,#login_btn {
+    width: 80px;
+    height: 30px;
+    background-color: #3498db; /* 设置背景颜色 */
+    color: white; /* 设置文字颜色 */
+    border-radius: 5px; /* 设置边框圆角 */
+    padding: 5px 10px; /* 设置内边距 */
+}
+#reg_btn:hover,#login_btn:hover {
+    background-color: #2980b9; /* 鼠标悬停时的背景颜色 */
+}
+#reg_btn:pressed,#login_btn:pressed {
+    background-color: #1f618d; /* 按下时的背景颜色 */   
+}
+
+#title_bar {
+    width: auto;
+    height: 30px;
+    background-color: #efefef;
+}
+
+#title_bar #quit_win_btn {
+    width: 40px;
+    height: 30px;
+}
+#quit_win_btn:hover {
+    background-color: red; /* 鼠标悬停时的背景颜色 */
+}
+
+

@@ -1,0 +1,125 @@
+
+#quit_btn {
+    width: 40px;
+    height: 30px;
+}
+#quit_btn:hover {
+    background-color: red; /* 鼠标悬停时的背景颜色 */
+}
+#max_show_win_lb, #min_show_win_lb {
+    width: 40px;
+    height: 30px;
+}
+#max_show_win_lb:hover, #min_show_win_lb:hover {
+    background-color: rgba(255, 255, 255, 150);
+}
+
+#right_content_w {
+    background-color: #F5F6F7;
+    border: none; 
+}
+
+#chat_records_list {
+    background-color: #F5F6F7;
+    border: none; 
+}
+
+#chat_records_bg {
+    background-color: #F5F6F7;
+    
+    border: none; 
+}
+#chat_area {
+    border: none; 
+    border-top: 2px solid #E5E5E5; 
+    border-bottom: 2px solid #E5E5E5; 
+    background-color: #00000000;
+
+}
+#send_msg_textEdit {
+    background-color: #F5F6F7;
+    border: none; 
+    border-top: 2px solid #E5E5E5; 
+    border-right: 2px solid #E5E5E5; 
+}
+
+#send_file_lb[state="normal"] {
+    background-image: url(":/img/file_normal2.png");
+    background-repeat: no-repeat;
+}
+#send_file_lb[state="active"] {
+    background-image: url(":/img/file_active.png");
+    background-repeat: no-repeat;
+}
+#send_image_lb[state="normal"] {
+    background-image: url(":/img/image_normal2.png");
+    background-repeat: no-repeat;
+}
+#send_image_lb[state="active"] {
+    background-image: url(":/img/image_active2.png");
+    background-repeat: no-repeat;
+}
+
+#friend_apply_list {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+#friend_apply_list::item {
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 2px solid #E5E5E5; 
+
+}
+#friend_apply_list:focus {
+    outline: 0px; /* 去掉选中委托项的虚线框*/
+}
+#friend_apply_list::item:hover {
+    background-color: #7fE5E5E5;
+    border: none; 
+}
+#friend_apply_list::item:selected {
+    background-color: #AfE5E5E5;
+    border: none; 
+}
+#friend_apply_list QScrollBar:vertical { 
+    background: transparent;
+    width: 10px; 
+    margin: 0px; 
+}
+#friend_apply_list QScrollBar::handle:vertical { 
+    background: lightgray; 
+    min-height: 20px; 
+    border-radius: 5px;
+}
+#friend_apply_list QScrollBar::add-line:vertical { 
+    height: 0px; 
+}
+#friend_apply_list QScrollBar::sub-line:vertical { 
+    height: 0px; 
+}
+#friend_apply_list::item #add_friend_btn[state="normal"] {
+    color: #ffffff;
+    background-color: #3A92DB;
+}
+#friend_apply_list::item #add_friend_btn[state="added"] {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#chat_area QScrollBar:vertical { 
+    background: transparent;
+    width: 10px; 
+    margin: 0px; 
+}
+#chat_area QScrollBar::handle:vertical { 
+    background: lightgray; 
+    min-height: 20px; 
+    border-radius: 5px;
+}
+#chat_area QScrollBar::add-line:vertical { 
+    height: 0px; 
+}
+#chat_area QScrollBar::sub-line:vertical { 
+    height: 0px; 
+}

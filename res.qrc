@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>style/style.qss</file>
+        <file>style/chattingRecordsView.qss</file>
+        <file>img/Capture001.png</file>
+        <file>img/self_head_icon.png</file>
+        <file>style/chat_main_w/left_content.qss</file>
+        <file>style/chat_main_w/left_content_side.qss</file>
+        <file>style/chat_main_w/right_content.qss</file>
+        <file>img/search.png</file>
+        <file>img/contacts_active.png</file>
+        <file>img/contacts_normal.png</file>
+        <file>img/chat_msg_active.png</file>
+        <file>img/chat_msg_normal.png</file>
+        <file>img/qingque1.jpg</file>
+        <file>img/teresa.png</file>
+        <file>img/farushan1.jpg</file>
+        <file>img/file_active .png</file>
+        <file>img/file_normal.png</file>
+        <file>img/image_active.png</file>
+        <file>img/image_normal.png</file>
+        <file>img/file_normal2.png</file>
+        <file>img/image_active2.png</file>
+        <file>img/image_normal2.png</file>
+        <file>style/add_friend/add_friend_dialog.qss</file>
+        <file>img/quit.png</file>
+        <file>img/quit_normal2.png</file>
+        <file>img/maxsize_normal.png</file>
+        <file>img/minisize_normal.png</file>
+        <file>img/maxsize_normal2.png</file>
+        <file>img/minisize_normal2.png</file>
+    </qresource>
+</RCC>
